@@ -27,6 +27,11 @@
     left: 2,
     right: 9
   },
+  {
+    title: 'For women',
+    left: 10,
+    right: 21
+  },
   ...
 ]  
 ```
