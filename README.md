@@ -2,6 +2,17 @@
 
 > A Vue.js project
 
+```$xslt
+<template>
+  <ul v-if="items">
+    <li v-for="item in items">
+        {{item.title}}
+        <NestedSetsItems v-if="item.subitems" :items="item.subitems"></NestedSetsItems>
+    </li>
+  </ul>
+</template>
+```
+
 ## Input parameters
 <code>items</code> array of Object:
 ```$xslt
