@@ -11,10 +11,5 @@
   export default {
     name: 'NestedSetsItems',
     props: ['items']
-    // ,data () {
-    //   return {
-    //     items: this.items
-    //   }
-    // }
   }
 </script>
